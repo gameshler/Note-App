@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+
+.App {
+  text-align: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50vh;
+}
+
+.textArea,
+.textAreaTitle {
+  margin-top: 1em;
+  background-color: #eeeeee;
+  color: #666;
+  padding: 1em;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  outline: none;
+  resize: none;
+  font-family: "Heebo", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.4;
+  width: 400px;
+  height: 200px;
+  transition: all 0.2s;
+}
+.textArea:hover,
+.textAreaTitle:hover {
+  cursor: pointer;
+  background-color: #eee;
+}
+
+.textArea:focus,
+.textAreaTitle:focus {
+  cursor: text;
+  color: #333;
+  background-color: #fff;
+  border-color: #333;
+}
+
+.textAreaTitle {
+  height: 20px;
+}
+
+.button,
+.updateButton {
+  margin-top: 1em;
+  background-color: #dddddd;
+  color: #666;
+  padding: 0.5em;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  outline: none;
+  font-family: "Heebo", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.4;
+  transition: all 0.2s;
+  width: 15%;
+}
+.button {
+  width: 10%;
+}
+
+.button:hover,
+.updateButton:hover {
+  cursor: pointer;
+  background-color: #eee;
+  width: 15%;
+}
+.updateButton:hover {
+  width: 22%;
+}
+.button:focus,
+.updateButton:focus {
+  color: #333;
+  background-color: #fff;
+  border-color: #333;
+}
+.list {
+  display: flex;
+}
+
+.Note {
+  background-color: #f7f7f7;
+  color: #2c2c2c;
+  padding: 1.1em;
+  margin-left: 1em;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  outline: none;
+  resize: none;
+  font-family: "Heebo", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  line-height: 1.4;
+  transition: all 0.2s;
+}
+
+.noteHeader {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  margin-bottom: 0.8em;
+}
+
+.spanDate {
+  font-weight: 500;
+  font-size: 0.8em;
+  margin-right: 7.5em;
+}
+
+.buttonDelete {
+  border: none;
+  padding: 0.2em;
+}
+
+.buttonDelete:hover {
+  cursor: pointer;
+}
+.title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5em;
+}
+.noteTitle {
+  font-weight: 600;
+  font-size: 1.2em;
+}
+.container {
+  display: flex;
+}
+.noteHeaderModal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.9em;
+}
+.buttonDeleteModal {
+  border: none;
+  padding: 0.2em;
+}
+.buttonDeleteModal:hover {
+  cursor: pointer;
+}
+.spanDateModal {
+  font-weight: 500;
+  font-size: 0.9em;
+}
+.modalHeading,
+.modalContent {
+  background-color: #f7f7f7;
+  color: #2c2c2c;
+  padding: 1.1em;
+  margin-left: 1em;
+  border-radius: 15px;
+  border: 2px solid transparent;
+  outline: none;
+  resize: none;
+  font-family: "Heebo", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  line-height: 1.4;
+  width: fit-content;
+  transition: all 0.2s;
+}
+
+.modalContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
